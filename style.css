@@ -1,0 +1,357 @@
+ *{
+    margin:0;
+    padding:0;
+ }
+ body{
+    background-color: black;
+ }
+.main{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/6678e2ea-85e8-4db2-b440-c36547313109/IN-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_3457a8b1-284d-4bb5-979e-2a2e9bb342b3_large.jpg");
+    height:83vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+   
+     }
+      .box{
+        height:83vh;
+        width:100%;
+        opacity:0.59;
+        background-color:black;
+        position:absolute;
+        top:0;
+         }
+        nav{
+            display:flex;
+            justify-content: space-between;
+             align-items:center; 
+            max-width:70vw;
+           margin:auto; 
+            height:100px;
+            padding:16px 0px;
+
+        }
+        
+        nav img{
+            height:160px;
+            width:250px;
+            color:red;
+            position:relative;
+            z-index:10;
+        }
+        button{
+            position:relative;
+             z-index:10;
+        }
+        .change{
+            display: flex;
+        }
+         .lang{
+            margin-right:5px;
+        }
+        .hero{
+            height:calc(100% - 100px);
+            color:white;
+            display:flex;
+            position:relative;
+            justify-content:center;
+            text-align:center;
+            flex-direction: column; 
+            font-family:'Martel Sans',sans-serif;
+            gap:24px; 
+        }
+        .hero1{
+            text-align:center;
+         font-size:48px;
+         font-weight:700;
+         font-family:'poppins',sans-serif;
+        }
+        .hero2{
+            text-align:center;
+        font-size:20px;
+        font-weight:400;
+        }
+        .hero3{
+            text-align:center;
+        font-size:20px;
+        font-weight:400;
+        }
+      .line{
+        height:7px;
+        background-color:rgb(46,44,44);
+   }
+     .btn{
+        padding:0px 8px;
+        background-color:transparent;
+        color: #fff;
+        font: weight 400px;
+         font-size:18px; 
+        border-radius:4px;
+        cursor:pointer;
+      
+     }
+     .btn-red{
+        background-color:red;
+        color:white;
+        border-radius: 5px;
+        padding:3px 24px;
+        height:45px;      
+        
+     }
+     .btn-red-rb{
+        background-color:red;
+        color:white;
+        border-radius: 5px;
+        width:80px;
+        height:40px;
+     }
+     .change{
+        border:0.1px solid #fff;
+        border-radius: 5px;
+        align-items: center;
+     }
+     .lang{
+        height:17px;
+        width:20px;
+        position:relative;
+     }
+ 
+    input{
+        background-color:transparent;
+        border: 0.1px solid rgb(153, 148, 148);
+        border-radius:5px;
+        padding:3px 15px;
+        font-size: 20px;
+        height:35px;
+        color:white;
+    
+    }
+    .herobuttons{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+     gap:16px; 
+    }
+    .gap{
+        display:flex;
+        gap:16px;
+        justify-content: center; 
+        align-items: center;
+    }
+        .box2{
+        display:flex;
+        flex-wrap:wrap;
+         gap:19px;
+         color:white;
+         flex-wrap: wrap;
+         padding:34px 0px;
+         }
+   
+    .first{
+        display:flex;
+        justify-content:center;
+        max-width:70vw;
+        margin:auto;
+        color:white;
+        align-items:center;
+    }
+        @media screen and (max-width:1300px) {
+            .first{
+                flex-wrap: wrap;
+            }
+        }
+     
+   
+    .secImg{
+     position:relative;
+     padding:100px 5px; 
+    }
+    .secImg img{
+        width:405px;
+        position:relative;
+        z-index:10;
+       
+    }
+    .secImg video{
+        position:absolute;
+        top:163px;
+         right:70px;
+         max-width:304px;
+    }
+    .secImgNew{
+        position:relative; 
+        background-size: cover;
+    }
+    .secImgNew img{
+        width:530px;
+        position:relative;
+        z-index:10;
+       
+    }
+    .secImgNew video{
+        position:absolute;
+        top:62px;
+        right:99px;
+        max-width:300px;
+    }
+    .third{
+        height:520px;
+    }
+  
+    .head1{
+      font-size:48px;
+      font-weight:bolder;
+      padding:30px 0px;
+    }
+    .head2{
+        font-size:24px;
+   
+         }
+         .faq{
+            background-color:black;
+            color:white;
+            padding:34px;
+         }
+         .faqbox:hover{
+            background-color:rgba(89, 89, 89, 0.836);
+         }
+         .faqbox{
+          transition:all 2s easein;
+          display:flex;
+          background-color:#2d2d2d;
+          font-size:24px;
+          gap:6px;
+          max-width:60vw;
+          justify-content:space-between;
+          padding:24px;
+          margin:34px auto; 
+          cursor:pointer;
+         }
+         .ques{
+            font-size:48px;
+            text-align:center;
+         }
+       .heading{
+        text-align:center;
+        color:white;
+        font-size:24px;
+
+       }
+       @media screen and (max-width:1300px) {
+        .heading{
+            text-align:center;
+            color:white;
+            font-size:18px;
+            display:flex;
+            flex-wrap: wrap;
+            padding:0px 40px;
+        }
+        .hero3{
+            text-align:center;
+        font-size:20px;
+        font-weight:400;
+        flex-wrap: wrap;
+        }
+    }
+
+       .query{
+        padding:30px 0px;
+       }
+       footer{
+        color:white;
+        max-width:60vw;
+         margin:auto;
+         padding:14px;
+        
+       }
+       .two{
+        padding:12px 0px;
+       }
+       .footeritem{
+        display:grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       color:white;
+         }
+         @media screen and (max-width:1300px) {
+            .footeritem{
+                display:grid;
+                grid-template-columns: 1fr 1fr;
+                gap:25px;
+            }
+        }
+        .list{
+            display:flex;
+            flex-direction:column;
+            gap:23px;
+           
+        
+        }
+        .faqs{
+            text-decoration:underline;
+            color:rgb(128, 128, 128);
+            font-size:18px;
+                
+           }
+           .call{
+            padding:34px 0px;
+           }
+        
+           .contact{
+            color:rgb(128, 128, 128);
+            font-size:18px;
+            }
+            .twolast{
+              padding:15px 293px;
+
+            }
+            @media screen and (max-width:1300px) {
+                .twolast{
+                    padding:15px 80px;
+                }
+
+            }
+            .last{
+                padding:15px 293px;
+                padding-bottom: 80px;
+            }
+            @media screen and (max-width:1300px) {
+                .last{
+                    padding:15px 82px;
+                }
+            }
+                 
+           
+              @media screen and (max-width:1300px){
+            .hero1{
+                text-align:center;
+             font-size:32px;
+            }
+            .hero2{
+                text-align:center;
+            font-size:18px;
+            }
+            .font{
+                display:flex;
+                padding-right:40px;
+                gap:4px;
+            }
+        
+            
+    
+        }
+        @media screen and (max-width:1300px){
+
+        .secImgNew img{
+            width:430px;
+            position:relative;
+            z-index:10;
+           
+        }
+        .secImgNew video{
+            position:absolute;
+            top:42px;
+            right:99px;
+            max-width:250px;
+        }
+    }
